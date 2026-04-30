@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – Mitti & Mann</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Contact Us</li>
+      </ol>
+    </nav>
+    <h1>Get in Touch</h1>
+    <p style="color:var(--text-light);margin-top:10px">We'd love to hear from you — questions, collaborations, or just to say hello!</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <span class="section-label">Reach Out</span>
+        <h2 style="font-size:2rem;color:var(--brown);margin-bottom:24px">We're Here for You</h2>
+        <p style="color:var(--text-mid);font-family:'Lora',serif;line-height:1.8;margin-bottom:32px">Whether you have a question about an order, want to collaborate as an artisan, or are curious about bulk orders — our team responds within 24 hours.</p>
+
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <div class="contact-info-title">Our Studio</div>
+            <div class="contact-info-text">12, Artisan Lane, Near Hawa Mahal,<br>Jaipur, Rajasthan – 302001</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <div class="contact-info-title">Phone & WhatsApp</div>
+            <div class="contact-info-text">+91 98765 43210<br><span style="font-size:0.8rem">Mon–Sat, 10am – 7pm IST</span></div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <div class="contact-info-title">Email Us</div>
+            <div class="contact-info-text">hello@mittiandmann.com<br>support@mittiandmann.com</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-instagram"></i></div>
+          <div>
+            <div class="contact-info-title">Social Media</div>
+            <div class="contact-info-text">@mittiandmann on Instagram, Facebook & Pinterest</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-form-box">
+          <h4 style="color:var(--brown);margin-bottom:6px">Send Us a Message</h4>
+          <p style="color:var(--text-light);font-size:0.88rem;margin-bottom:28px">We'll respond within 24 hours on business days.</p>
+          <form id="contactForm">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label-custom">Your Name *</label>
+                <input type="text" class="form-control-custom" placeholder="Priya Sharma" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label-custom">Email Address *</label>
+                <input type="email" class="form-control-custom" placeholder="priya@email.com" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label-custom">Phone Number</label>
+                <input type="tel" class="form-control-custom" placeholder="+91 98765 43210">
+              </div>
+              <div class="col-12">
+                <label class="form-label-custom">Subject *</label>
+                <select class="form-control-custom" required>
+                  <option value="">Select a subject…</option>
+                  <option>Order Inquiry</option>
+                  <option>Product Question</option>
+                  <option>Artisan Collaboration</option>
+                  <option>Bulk / Corporate Orders</option>
+                  <option>Returns & Refunds</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label-custom">Your Message *</label>
+                <textarea class="form-control-custom" rows="5" placeholder="Tell us how we can help you…" required style="resize:vertical"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-primary-custom w-100">
+                  <i class="bi bi-send"></i> Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div class="map-wrapper mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.123456789!2d75.8235!3d26.9245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3b0b0b0b0b0%3A0x0!2sHawa%20Mahal%2C%20Jaipur!5e0!3m2!1sen!2sin!4v1234567890"
+            width="100%" height="260" style="border:0;display:block" allowfullscreen loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="shared-layout.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

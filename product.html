@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product – Mitti & Mann</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="padding:50px 0 30px">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+        <li class="breadcrumb-item active">Product Detail</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<!-- PRODUCT DETAIL -->
+<section class="product-detail-section">
+  <div class="container">
+    <div class="row g-5" id="productDetailMain">
+      <!-- Rendered by JS -->
+      <div class="col-12 text-center py-5">
+        <div class="spinner-border" style="color:var(--terracotta)"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARTISAN PROMISE STRIP -->
+<section style="background:var(--beige);padding:40px 0;margin:40px 0">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="feature-icon"><i class="bi bi-hand-thumbs-up"></i></div>
+        <div class="feature-title">Handmade Guarantee</div>
+        <div class="feature-desc">Every item is handcrafted</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="feature-icon"><i class="bi bi-recycle"></i></div>
+        <div class="feature-title">Eco Packaging</div>
+        <div class="feature-desc">100% recyclable materials</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="feature-icon"><i class="bi bi-people"></i></div>
+        <div class="feature-title">Artisan Direct</div>
+        <div class="feature-desc">Fair wages, fair trade</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="feature-icon"><i class="bi bi-truck"></i></div>
+        <div class="feature-title">Insured Shipping</div>
+        <div class="feature-desc">Every order insured</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED PRODUCTS -->
+<section style="padding:40px 0 80px">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">You May Also Like</span>
+      <h2 class="section-title">Related Products</h2>
+      <div class="title-divider"></div>
+    </div>
+    <div class="row" id="relatedProducts">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="shared-layout.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
